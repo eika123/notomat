@@ -1,0 +1,167 @@
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+ @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+body {
+    background-color: #f4f4f4;
+    color:#2b2b2b;
+
+    /* font og linjeavstand */
+    font-family: Georgia, Palatino, 'Palatino Linotype', 'Times New Roman', Times, serif;
+    font-size: 1.1em;
+    line-height: 1.7em;
+
+    /* margins */
+    margin: 0;
+}
+
+h1, h2  {
+    font-family: 'Open sans', sans-serif;
+    font-weight: bold;
+    margin:0;
+}
+
+header {
+    font-family: 'Open sans', sans-serif;
+    background-color: #d6d6d6;
+    text-align: center;
+
+}
+
+#main_header {
+    background-color: #262626;
+    color: white;
+    margin: 0;
+    padding: 1em 1em;
+    position: relative;
+}
+
+
+.clearfix {
+    clear:both
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover { color: black
+}
+
+a:active {
+    color:white;
+}
+
+#main_navbar {
+    padding-bottom: 1em;
+    padding-top:1em;
+    min-width: 20em;
+    margin-bottom: 2em;
+    background-color:  #333;
+    line-height: 3.5em;
+}
+
+#main_navbar a {
+    padding-top:1em;
+    padding-bottom:1em;
+    margin-right: 5em;
+    margin-top: 10em;
+    margin-bottom:10em;
+    color: #d3d3d3;
+}
+
+
+#main_navbar a:hover {
+    color: black;
+    background-color: #b5b5b5;
+}
+
+
+article {
+    max-width: 45em;
+    margin: 1em;
+    padding: 15px 5px;
+}
+
+.lenkeboks {
+    margin: auto;
+    margin-top: 20px;
+
+    padding: 15px;
+
+    width: 13em;
+
+    padding-top: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+
+    border: 3px #2b2b2b solid;
+    /*background-color: #383838; */
+    /* color: #d6d6d6; */
+    
+}
+
+.lenkeboks ul {
+    padding: 0;
+    list-style: none;
+}
+
+.lenkeboks li {
+    padding-bottom: 3px;
+}
+
+
+
+nav ul {
+    list-style: none;
+}
+
+
+
+
+
+
+.lenkeboks h2 {
+    text-align: center;
+}
+
+.lenkeboks:hover {
+    background-color: #b5b5b5;
+}
+
+
+
+.box-container {
+    width: 50%;
+    margin: auto;
+}
+
+
+.nytt_innhold {
+    background-color: #efefef;
+    margin: auto;
+    word-spacing: 2px;
+}
+
+
+.block {
+    float:left;
+    width: 32%;
+    min-width: 20em;
+    margin:3px;
+    box-sizing: border-box;
+}
+
+
+.container {
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+}
+
+
