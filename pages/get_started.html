@@ -11,7 +11,7 @@
       span.underline{text-decoration: underline;}
       div.column{display: inline-block; vertical-align: top; width: 50%;}
   </style>
-  <link rel="stylesheet" href="pandoc.css" />
+  <link rel="stylesheet" href="../css/pandoc.css" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.8.3/katex.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.8.3/contrib/auto-render.min.js"></script><script>document.addEventListener("DOMContentLoaded", function() {
     renderMathInElement(document.body);
   });</script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.8.3/katex.min.css" />
@@ -88,6 +88,7 @@ Out[3]: str
 In [4]: type(5.3)
 Out[4]: float</code></pre>
 <p>python forteller oss da at <code>'5.3'</code> er en streng og at <code>5.3</code> er en <code>float</code>.</p>
+<h3 id="feilmeldinger">Feilmeldinger</h3>
 <p>Hvis du prøver å multiplisere en streng og et flyttall får du en feilmelding:</p>
 <pre><code>In [19]: 5.3*&#39;tekststreng&#39;
 ---------------------------------------------------------------------------
@@ -96,8 +97,8 @@ TypeError                                 Traceback (most recent call last)
 ----&gt; 1 5.3*&#39;tekststreng&#39;
 
 TypeError: can&#39;t multiply sequence by non-int of type &#39;float&#39;</code></pre>
-<p>Når du får feilmeldinger kan det ofte være lurt å starte <em>nederst</em> i feilmeldingen. Ser du her hva som har gått galt?</p>
-<p>Du blir bedre på å lese feilmeldinger etter hvert som du programmerer mer. Feil i programvaren er en naturlig del av all programvareutvikling! Derfor er også testing av programvare en egen gren innenfor informatikk, og mange mennesker arbeider kun med å skrive tester for programvare.</p>
+<p>Feilmeldinger ser gjerne veldig kryptiske ut for nybegynnere. Det blir bedre! Når du får feilmeldinger kan det ofte være lurt å starte <em>nederst</em> i feilmeldingen. Ser du her hva som har gått galt her?</p>
+<p>Du blir bedre på å lese feilmeldinger etter hvert som du programmerer mer. Feil i programvaren er en naturlig del av all programvareutvikling! Derfor er også testing av programvare en egen gren innen informatikk, og mange mennesker arbeider kun med å skrive tester for programvare.</p>
 <p>Hva tror du skjer hvis du multipliserer en streng (<code>str</code>) og et heltall (<code>int</code>) ? Prøv!</p>
 <h2 id="variable">Variable</h2>
 <p>Du bør tenke på variabelen som en lagringsenhet for et objekt. Hvis du ikke vet hva begrepet objekt betyr i programmering, kan du trygt tenke på et objekt som en “ting”.</p>
@@ -184,5 +185,7 @@ In [50]: somelist
 Out[50]: [0.1, 0.2, 0.3, 0.4, 0.5]</code></pre>
 <p>Metoden tilføyer altså et element på slutten av listen.</p>
 <p>Andre måter å indeksere data på i python er <em>numpy-arrays</em> og <em>dictionaries</em>.</p>
+<h3 id="oppgaver">Oppgaver</h3>
+<p><a href="exercises_getstarted.html">Du finner oppgaver her</a></p>
 </body>
 </html>
